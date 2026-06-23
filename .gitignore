@@ -138,3 +138,13 @@ examples/Training DeepD3 model UNet.ipynb
 
 # Wandb files
 wandb
+
+# macOS metadata
+.DS_Store
+._*
+
+# Local fine-tuning data and generated artifacts.
+data/
+artifacts/
+models/pretrained/*.h5
+models/respan_finetuned/
